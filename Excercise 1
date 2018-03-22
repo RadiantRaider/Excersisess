@@ -1,0 +1,28 @@
+size(800,500);
+//the sky
+background (153,204,255);
+//THE SUNNNNNNNNNNNNNNNNNNNNNNNNNNN
+fill(255,255,0);
+ellipse(250, 260, 120, 120);
+//the ground
+fill(102,255,102);
+rect(0, 250, 800, 400);
+//the house base (rect)
+fill(220,20,60);
+rect(520, 195, 150, 130);
+//The house roof (triangle)
+fill(0);
+triangle(510, 195, 680, 195, 595, 155);
+//the door
+fill(255,255,255);
+rect(575, 225, 40, 80);
+fill(0);
+ellipse(584, 268, 10, 10);
+//the suns rays
+strokeWeight(6);
+stroke(255,255,0);
+line(150, 240, 200, 240);
+line(165, 200, 270, 240);
+line(300, 240, 350, 240);
+line(220, 240, 350, 200);
+line(250, 240, 250, 160);
